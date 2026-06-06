@@ -10,7 +10,7 @@ An interactive Tableau dashboard and analysis of self-reported depression diagno
 
 ## The question
 
-Where, and among whom, is diagnosed depression concentrated in the US — and what does survey data actually let us claim?
+Where, and among whom, is diagnosed depression concentrated in the US and what does survey data actually let us claim?
 
 ## Key findings
 
@@ -25,8 +25,8 @@ The survey asks whether a respondent was *ever told* they have depression. That 
 
 ## Tech stack
 
-- **Python + DuckDB** — queried and reduced a 1.1 GB raw CSV on disk (no full load into memory), applied SQL filtering, reliability flags, and confidence-interval fields.
-- **Tableau Public** — KPI cards, choropleth map, trend lines with confidence intervals, disparity charts, data-quality panel.
+- **Python + DuckDB** - queried and reduced a 1.1 GB raw CSV on disk (no full load into memory), applied SQL filtering, reliability flags, and confidence-interval fields.
+- **Tableau Public** - KPI cards, choropleth map, trend lines with confidence intervals, disparity charts, data-quality panel.
 
 ## Repo contents
 
